@@ -4,10 +4,10 @@
     <title>FoodSpan</title>
     <description>FoodSpan is an amazing service!
 </description>
-    <link>http://matthewwang.me/foodspan/foodspan/</link>
-    <atom:link href="http://matthewwang.me/foodspan/foodspan/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Aug 2016 22:01:22 -0400</pubDate>
-    <lastBuildDate>Mon, 15 Aug 2016 22:01:22 -0400</lastBuildDate>
+    <link>http://foodspan.github.io/</link>
+    <atom:link href="http://foodspan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Aug 2016 22:03:26 -0400</pubDate>
+    <lastBuildDate>Mon, 15 Aug 2016 22:03:26 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -20,7 +20,7 @@
 
 &lt;h1 id=&quot;green-onions&quot;&gt;1. Green Onions&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/regrow-onions.jpg&quot; alt=&quot;Regrow Onions&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/regrow-onions.jpg&quot; alt=&quot;Regrow Onions&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Chopped onions are a culinary aesthete’s favourite garnish. They can be used to add the finishing touches to soups, omelettes, dips, potato salads, stir-fry dishes… the list goes on and on!&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;h1 id=&quot;garlic-sprouts&quot;&gt;2. Garlic Sprouts&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/regrow-garlic.jpg&quot; alt=&quot;Regrow Garlic&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/regrow-garlic.jpg&quot; alt=&quot;Regrow Garlic&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Love garlic, but want something a little milder? Try garlic sprouts! They taste great on top of baked potatoes and salads, and act as the perfect “little something” for dips such as hummus and guacamole.&lt;/p&gt;
 
@@ -37,7 +37,7 @@
 
 &lt;h1 id=&quot;romaine-lettuce&quot;&gt;3. Romaine Lettuce&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/regrow-lettuce.jpg&quot; alt=&quot;Regrow Lettuce&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/regrow-lettuce.jpg&quot; alt=&quot;Regrow Lettuce&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Aside from the obvious salad or wrap, lettuce can be used in a plethora of recipes! Have you ever tried roasting or stir-frying it? From smoothies to tacos, this leafy green will put a smile on your face no matter how you use it.&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 
 &lt;h1 id=&quot;basil&quot;&gt;4. Basil&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/regrow-basil.jpg&quot; alt=&quot;Regrow Basil&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/regrow-basil.jpg&quot; alt=&quot;Regrow Basil&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can’t go wrong with basil! A quick Google search turned up countless recipes whose names alone will make your mouth water. Pasta, salads, fish… add basil to anything and &lt;em&gt;pesto&lt;/em&gt;! Every bite will taste like spring with this &lt;a href=&quot;http://foodfacts.mercola.com/basil.html&quot;&gt;superfood&lt;/a&gt;.&lt;/p&gt;
 
@@ -56,8 +56,8 @@
 &lt;p&gt;There are several other vegetables you can grow in a similar fashion, but the ones we chose are among the fastest and easiest to grow. Regrowing food is one way to reduce food waste… another would be using &lt;strong&gt;FoodSpan&lt;/strong&gt;! Hopefully this blog post gave you an idea of how to be more sustainable when it comes to chowing down. Until next time!&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Aug 2016 17:10:00 -0400</pubDate>
-        <link>http://matthewwang.me/foodspan/foodspan/news/2016/08/08/food-that-regrows-itself.html</link>
-        <guid isPermaLink="true">http://matthewwang.me/foodspan/foodspan/news/2016/08/08/food-that-regrows-itself.html</guid>
+        <link>http://foodspan.github.io/news/2016/08/08/food-that-regrows-itself.html</link>
+        <guid isPermaLink="true">http://foodspan.github.io/news/2016/08/08/food-that-regrows-itself.html</guid>
         
         
         <category>news</category>
@@ -70,7 +70,7 @@
 
 &lt;h1 id=&quot;go-green-put-some-veggies-in-there&quot;&gt;1. Go Green: Put some veggies in there!!&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/green-onion.png&quot; alt=&quot;Green Onions&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/green-onion.png&quot; alt=&quot;Green Onions&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Instant Noodles is only going to get you one out of the four food groups, so get some awesome vegetables in there! They also add tons of flavour, and make your pot of noodles look pretty green! Some common vegetables for Instant Noodles include:&lt;/p&gt;
 
@@ -90,31 +90,31 @@
 
 &lt;h1 id=&quot;noodles-can-be-eggcellent&quot;&gt;2. Noodles can be Eggcellent!&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/egg-instant-noodle.jpg&quot; alt=&quot;Eggs in Instant Noodles&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/egg-instant-noodle.jpg&quot; alt=&quot;Eggs in Instant Noodles&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Eggs are often a staple for most kinds of foods, and instant noodles are no exception! You can cook them in many different ways: poached, boiled, omelette, or anything in between!&lt;/p&gt;
 
 &lt;h1 id=&quot;give-your-instant-noodles-some-meat&quot;&gt;3. Give your instant noodles some meat!&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/beef-instant-noodles.jpg&quot; alt=&quot;Meat in Instant Noodles&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/beef-instant-noodles.jpg&quot; alt=&quot;Meat in Instant Noodles&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;People love meat, whether it’s in your burger, grilled food, or even your noodles! You can toss in your pork, beef, or chicken to simmer while you’re boiling your instant noodles, and it turns out amazing! Seafood works even better: shrimp, lobster, or fish doesn’t taste fishy! It tastes even better when the meat juices soak into the soup!&lt;/p&gt;
 
 &lt;h1 id=&quot;dont-be-a-chicken-use-chicken-stock&quot;&gt;4. Don’t be a chicken, use Chicken Stock!&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/chicken-instant-noodles.jpg&quot; alt=&quot;Chicken Soup Stock&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/chicken-instant-noodles.jpg&quot; alt=&quot;Chicken Soup Stock&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Drinking noodle soup is sooo tasty, especially on a cold day. But you don’t want just the flavour packet and water in there! Adding some chicken soup stock can go a long way into making both the noodles and the soup a little chicken soup for the soul.&lt;/p&gt;
 
 &lt;h1 id=&quot;get-saucy&quot;&gt;5. Get Saucy!&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/soy-sauces.jpg&quot; alt=&quot;Soy Sauces&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/soy-sauces.jpg&quot; alt=&quot;Soy Sauces&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We love being saucy, especially with instant noodles! Soy Sauce, Sesame Oil, and Vinegar are some basic sauces you can add in; if you’re feeling adventurous, try sriracha, Tabasco, or any other hot sauces. Get saucy!&lt;/p&gt;
 
 &lt;h1 id=&quot;make-your-instant-noodles-butter&quot;&gt;6. Make your Instant Noodles Butter!&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/foodspan/img/blog/butter.jpg&quot; alt=&quot;Butter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog/butter.jpg&quot; alt=&quot;Butter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Adding Butter to your Ramen makes it taste smooooooth, just like butter. Give it a shot! If you’re looking for creamier instant noodles, add some milk in too.&lt;/p&gt;
 
@@ -123,8 +123,8 @@
 &lt;p&gt;Hopefully now you’re able to raise the bar for your instant noodles. As a reminder, you can store all of these ingredients in your fridge, and use FoodSpan to keep track of all your ingredients and expiry dates. Have fun out there!&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Aug 2016 21:58:07 -0400</pubDate>
-        <link>http://matthewwang.me/foodspan/foodspan/news/2016/08/06/how-to-make-instant-noodles-healthy.html</link>
-        <guid isPermaLink="true">http://matthewwang.me/foodspan/foodspan/news/2016/08/06/how-to-make-instant-noodles-healthy.html</guid>
+        <link>http://foodspan.github.io/news/2016/08/06/how-to-make-instant-noodles-healthy.html</link>
+        <guid isPermaLink="true">http://foodspan.github.io/news/2016/08/06/how-to-make-instant-noodles-healthy.html</guid>
         
         
         <category>news</category>
@@ -140,8 +140,8 @@
 &lt;p&gt;Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Aug 2016 21:07:07 -0400</pubDate>
-        <link>http://matthewwang.me/foodspan/foodspan/news/2016/08/02/welcome-to-foodspan.html</link>
-        <guid isPermaLink="true">http://matthewwang.me/foodspan/foodspan/news/2016/08/02/welcome-to-foodspan.html</guid>
+        <link>http://foodspan.github.io/news/2016/08/02/welcome-to-foodspan.html</link>
+        <guid isPermaLink="true">http://foodspan.github.io/news/2016/08/02/welcome-to-foodspan.html</guid>
         
         
         <category>news</category>
