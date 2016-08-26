@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FoodSpan</title>
-    <description>FoodSpan is an amazing service!
+    <description>FoodSpan works in your kitchen to help you save food, time, and money, simply by swiping and attaching a tag. Not only does your leftover spaghetti not become a science experiment, but you can save hundreds of dollars every year! Plus, FoodSpan is always available using our suite of web and mobile applications, so you always know what&#39;s cool in your fridge.
 </description>
     <link>https://foodspan.github.io/</link>
     <atom:link href="https://foodspan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Aug 2016 21:07:37 -0400</pubDate>
-    <lastBuildDate>Thu, 25 Aug 2016 21:07:37 -0400</lastBuildDate>
+    <pubDate>Thu, 25 Aug 2016 21:32:16 -0400</pubDate>
+    <lastBuildDate>Thu, 25 Aug 2016 21:32:16 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
