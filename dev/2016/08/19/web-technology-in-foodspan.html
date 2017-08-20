@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dev Corner: The Web Technologies Behind FoodSpan</title>
+    <meta name="description" content="Heya there, it’s your friendly developer Matt here! Today, I want to talk about the technology stack, and more specifically the web technology stack behind F..." />
+    <meta name="keywords" content="FoodSpan, food, insecurity, product, fridge, refridgerator, save, waste, foodspan, webspan">
+
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/material-kit.min.css" />
+    <link rel="stylesheet" href="/css/animate.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css' />
+
+    <script src="/js/google-analytics.js"></script>
+
+    <link rel="canonical" href="https://foodspan.github.io/dev/2016/08/19/web-technology-in-foodspan.html" />
+    <link rel="alternate" type="application/rss+xml" title="FoodSpan" href="https://foodspan.github.io/feed.xml" />
+    <link type="text/plain" rel="author" href="https://foodspan.github.io/humans.txt" />
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top" style="background-color:#98DA8E;color:white;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-container" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">FoodSpan</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-container">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/about/">About <span class="sr-only">About the FoodSpan Product</span></a>
+            </li>
+            <li>
+              <a href="/blog/">Blog <span class="sr-only">The FoodSpan Blog</span></a>
+            </li>
+            <li>
+              <a href="/shop/">Shop <span class="sr-only">The FoodSpan Shop</span></a>
+            </li>
+            <li>
+              <a href="/team/">Team <span class="sr-only">About the FoodSpan Team</span></a>
+            </li>
+            <li>
+              <a href="/contact/">Contact Us <span class="sr-only">Contact the FoodSpan Team</span></a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://foodspan.github.io/foodspan-app/" class="btn btn-white btn-raised btn-round">Mobile App <span class="sr-only">The FoodSpan Mobile Companion App</span></a>
+            </li>
+            <li>
+              <a href="https://matthewwang.me/foodspan-website/webspan/" class="btn btn-white btn-raised btn-round">
+                WebSpan <span class="sr-only">The FoodSpan Web Companion App</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="card">
+      <img class="img-responsive" alt="Blog Post Image" src="/img/blog/devs-corner/matt.png">
+      <div class="content">
+        <header class="post-header">
+          <h1 class="title" itemprop="name headline">Dev Corner: The Web Technologies Behind FoodSpan</h1>
+          <p class="post-meta"><time datetime="2016-08-19T01:12:34-04:00" itemprop="datePublished">Aug 19, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Matthew Wang</span></span></p>
+        </header>
+
+        <div class="post-content" itemprop="articleBody">
+          <p>Heya there, it’s your friendly developer Matt here! Today, I want to talk about the technology stack, and more specifically the web technology stack behind FoodSpan’s website. For some of you, it may not sound like English; and that’s okay! But if you are interested in the technology behind our websites, get ready to go on a journey with me!</p>
+
+<h2 id="foodspan-website-stack">FoodSpan Website Stack</h2>
+
+<h3 id="the-tools">The Tools</h3>
+
+<p><img src="/img/blog/devs-corner/github.png" alt="GitHub Octocat" /></p>
+
+<p>I go over this a bit in my previous <a href="https://foodspan.ca/dev/2016/08/12/dev-corner-matt.html">devs corner</a> post, but I use a few tools consistently whenever I code: <a href="https://github.com">GitHub</a> and <a href="https://atom.io">Atom</a>. GitHub is <em>the</em> git-based version-control software/website hybrid, often known as the pariah of open source; Atom is a text-editor developed by the people at GitHub, made in web technologies and is <em>hackable to its core</em>. I’m a bit of a GitHub fan myself, and I love their products. But no hate if you don’t; to each their own!</p>
+
+<p>We use GitHub at FoodSpan (you can check out our <a href="https://github.com/FoodSpan/">company organization</a>) to streamline multi-developer work, keep track of all of our code revisions, and generally make coding easier for everyone. If you’re someone who programs even a bit, I’d definitely recommend using GitHub.</p>
+
+<h3 id="the-frontend-stack">The Frontend Stack</h3>
+
+<p>I’ll be straightforward here: we use <a href="https://jekyllrb.com">Jekyll</a> as our site-generator, <a href="https://getbootstrap.com">Bootstrap</a> as our primary CSS framework, and <a href="https://fontawesome.io">Font Awesome</a> and <a href="https://design.google.com/icons/">Google Material Design Icons</a> as our font-icon sets. Let’s explore them!</p>
+
+<h4 id="jekyll">Jekyll</h4>
+
+<p><img src="/img/blog/devs-corner/jekyll.png" alt="GitHub Octocat" /></p>
+
+<p>The FoodSpan Website is mostly a static, front-end site: there’s no backend, no passwords, and no dynamic data. Because of that, CMS-esque tools are super helpful in generating parts of our site: so styling stays consistent, and so the site looks clean. In order to accomplish this, we use <a href="https://jekyllrb.com">Jekyll</a>. Jekyll is a dveloped-in-ruby liquid-based static site generator: it makes things like keeping consistent navbars, post layouts, or generating any type of web content easy! It also has gh-pages support, and is used extensively by the people at GitHub and many other open source projects (like Bootstrap). It’s easy to get started with, but has a lot of functionality. I’d definitely recommend it to anybody who’s looking into making static sites!</p>
+
+<h4 id="bootstrap">Bootstrap</h4>
+
+<p><img src="/img/blog/devs-corner/bootstrap.png" alt="GitHub Octocat" /></p>
+
+<p><a href="https://getbootstrap">Bootstrap</a> is pretty well known in the web design community, and once you pick up on what Bootstrap is you’ll see it on a lot of sites. <strong>A lot of sites.</strong> Because of that, sites will often get flak for using Bootstrap, as it lowers the amount of coding any developer needs to do, and for a lack of a better term, often acts as a “crutch” for developers. Respectfully, I disagree with this attitude: I think that using tools to make your own work easier is the hallmark of doing anything, just like using a multi-tool. Bootstrap is one pretty good multitool: it’s designed for responsive-design, features many CSS utilities, and looks pretty cool! We use a Material Design toolkit in conjunction with Bootstrap so our CSS Components follow the Material Design Guidelines.</p>
+
+<p>That being said, <em>I don’t think that copy-pasting code is the answer,</em> and we didn’t do that with the FoodSpan website. We don’t <a href="https://startbootstrap.com/template-overviews/agency/">copy and site layouts</a>, and we spent a lot of time designing our pages, our colour palette (which follows the Google Material Design Guidelines), and making sure that everything plays nicely. I’m proud of the work that we have done with our website, and I’ve certainly learned a lot about website development from this endeavor (responsive design, flexbox, and accessibility come to mind).</p>
+
+<p>If you don’t know what Bootstrap is, you’re definitely missing out: it can turn a relatively awful-looking website into a not-so-awful looking website. But if you want your website to be the best, just Bootstrap isn’t enough.</p>
+
+<h4 id="icon-fonts">Icon Fonts</h4>
+
+<p><img src="/img/blog/devs-corner/font-awesome.jpg" alt="GitHub Octocat" />
+<img src="/img/blog/devs-corner/material-design-icons.png" alt="GitHub Octocat" /></p>
+
+<p>Icons are pretty important to your website: they help the user understand what’s going on! For the FoodSpan website, we used <a href="https://fontawesome.io">Font Awesome</a> and <a href="https://design.google.com/icons/">Google Material Design Icons</a>: two standard staples of the web-dev circle. Google’s Material Design Icons fit well with our design theme, and are pretty well-known; Font Awesome is another icon font addition that helps with the holes missing from Google’s MD. Mostly just standard stuff.</p>
+
+<p>One small note I want to make is in terms of accessibility: if you use a screen reader, an icon isn’t really the best idea. During the development of the website, that’s something I had to consider and reconsider several times: ultimately, I ended up using <code class="highlighter-rouge">aria</code> attributes and <code class="highlighter-rouge">sr-only</code> screenreader-specific text to ensure that everybody could navigate our website with ease. That’s something that every developer needs to keep in the back of their mind: whether or not your website is usable by everybody.</p>
+
+<h2 id="so-long-and-thanks-for-all-the-fish">So Long, and Thanks for All the Fish!</h2>
+
+<p>That just about wraps up our FoodSpan web tech stack overview. Hopefully, you ended up learning something about how FoodSpan was made, and what we used to make this website: I certainly did!</p>
+
+<p>Until next time!</p>
+
+<p><em>You can learn more about Matt on his <a href="https://github.com/malsf21">GitHub</a>, <a href="https://matthewwang.me/">website</a>, or <a href="https://blog.matthewwang.me/">his blog</a>.</em></p>
+
+        </div>
+      </div>
+    </div>
+  </article>
+  <h2>Recommended Articles</h2>
+  <div class="row row-profile">
+    
+      <div class="col-sm-4">
+        <div class="card card-product">
+          <img class="img-responsive" alt="Blog Post Image" src="/img/blog/default.png">
+          <div class="content">
+            <h4>
+              <a href="/staff/2016/09/01/foodspan-staff-memories.html">The FoodSpan Staff's Best Memories</a>
+            </h4>
+            <h4><small>Sep 1, 2016</small></h4>
+            <p>As our final time crunch for FoodSpan ends, we asked our FoodSpan staff what their fondest memories of FoodSpan were. Here are their responses:</p>
+
+
+            <a href="/staff/2016/09/01/foodspan-staff-memories.html" class="btn btn-simple">
+  						<i class="material-icons" aria-hidden="true">subject</i> Read Article
+  					</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="card card-product">
+          <img class="img-responsive" alt="Blog Post Image" src="/img/blog/waste-berries.jpg">
+          <div class="content">
+            <h4>
+              <a href="/food/2016/08/24/why-do-we-waste-food.html">Why Do We Waste Food</a>
+            </h4>
+            <h4><small>Aug 24, 2016</small></h4>
+            <p>In all fairness, there are too many answers to the above question  for them to fit in this single blog post. (Also, I dread writing and having to use words to cover such a broad topic would be the end of me!) Consequently, I have decided to limit myself to two human shortcomings, my shortcomings, that lead to food waste and to provide a few of the solutions that work for me.</p>
+
+
+            <a href="/food/2016/08/24/why-do-we-waste-food.html" class="btn btn-simple">
+  						<i class="material-icons" aria-hidden="true">subject</i> Read Article
+  					</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="card card-product">
+          <img class="img-responsive" alt="Blog Post Image" src="/img/blog/devs-corner/matt.png">
+          <div class="content">
+            <h4>
+              <a href="/dev/2016/08/19/web-technology-in-foodspan.html">Dev Corner: The Web Technologies Behind FoodSpan</a>
+            </h4>
+            <h4><small>Aug 19, 2016</small></h4>
+            <p>Heya there, it’s your friendly developer Matt here! Today, I want to talk about the technology stack, and more specifically the web technology stack behind FoodSpan’s website. For some of you, it may not sound like English; and that’s okay! But if you are interested in the technology behind our websites, get ready to go on a journey with me!</p>
+
+
+            <a href="/dev/2016/08/19/web-technology-in-foodspan.html" class="btn btn-simple">
+  						<i class="material-icons" aria-hidden="true">subject</i> Read Article
+  					</a>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+
+    <footer class="footer footer-black">
+		<div class="container">
+			<a href="/">FoodSpan</a>
+			<ul class="pull-center">
+				<li>
+					<a href="/about/">
+					   About <span class="sr-only">About the FoodSpan Product</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://foodspan.github.io/foodspan-app/">
+					   App <span class="sr-only">The FoodSpan Web Companion App</span>
+					</a>
+				</li>
+				<li>
+					<a href="/blog/">
+					   Blog <span class="sr-only">The FoodSpan Blog</span>
+					</a>
+				</li>
+				<li>
+					<a href="/shop/">
+						Shop <span class="sr-only">The FoodSpan Shop</span>
+					</a>
+				</li>
+				<li>
+					<a href="/team/">
+						Team <span class="sr-only">About the FoodSpan Team</span>
+					</a>
+				</li>
+				<li>
+					<a href="/contact/">
+						Contact Us <span class="sr-only">Contact the FoodSpan Team</span>
+					</a>
+				</li>
+			</ul>
+
+			<ul class="social-buttons pull-right">
+				<li>
+					<a href="/">English</a>
+				</li>
+				<li>
+					<a href="/fr">Français</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/FoodSpanCA" target="_blank" class="btn btn-just-icon btn-simple">
+						<i class="fa fa-twitter"></i> <span class="sr-only">FoodSpan Twitter Page</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/FoodSpanCA/" target="_blank" class="btn btn-just-icon btn-simple">
+						<i class="fa fa-facebook-square"></i> <span class="sr-only">FoodSpan Facebook Page</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/FoodSpan" target="_blank" class="btn btn-just-icon btn-simple">
+						<i class="fa fa-github"></i> <span class="sr-only">FoodSpan GitHub Organisation</span>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+	</footer>
+
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/material.min.js"></script>
+	<script src="/js/material-kit.min.js"></script>
+
+
+  </body>
+
+</html>
